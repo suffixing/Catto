@@ -6,7 +6,7 @@ Catto is a simple Android app that displays 10 random cat images fetched from th
 
 - Fetches 10 random cat images from the Cat API and displays them in a grid-like layout.
 - Allows users to tap on an image to view it in full screen mode.
-- Uses Retrofit and Picasso libraries for efficient network requests and image loading.
+- Uses Retrofit and Glide library for efficient network requests and image loading.
 - Follows the MVVM architecture pattern for clean and maintainable code.
 - Implements data binding for easy and efficient UI updates.
 - Includes comments throughout the code to aid in understanding and future development.
