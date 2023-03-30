@@ -1,0 +1,12 @@
+<resources>
+    <style name="Theme.Catto.Dark" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#F06060</item>
+        <item name="colorPrimaryVariant">#E21F1F</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">#FCE205</item>
+        <item name="colorSecondaryVariant">#FFE100</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:windowBackground">#1B2025</item>
+    </style>
+
+</resources>

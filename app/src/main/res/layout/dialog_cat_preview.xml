@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!-- Define a ShapeableImageView to display cat images with rounded corners and stroke -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/cat_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_launcher_background"
+        app:shapeAppearance="?shapeAppearanceMediumComponent"
+        app:shapeAppearanceOverlay="@style/roundedCatImage" />
+
+</FrameLayout>

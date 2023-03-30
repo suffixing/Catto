@@ -1,0 +1,23 @@
+<resources>
+    <style name="Theme.Catto" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/cat_brown</item>
+        <item name="colorPrimaryVariant">@color/cat_light_brown</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/cat_gray</item>
+        <item name="colorSecondaryVariant">@color/cat_dark_gray</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <!-- Define a custom style for rounded cat images -->
+    <style name="roundedCatImage">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerRadius">64dp</item>
+    </style>
+
+    <!-- Define custom animations for dialogs -->
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+</resources>
