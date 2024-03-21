@@ -18,7 +18,7 @@ Catto is a simple Android app that displays 10 random cat images fetched from th
 ## Installation
 
 **Note!:** I've Used Android Studio Giraffe | 2022.3.1 Canary 10. ( Some features may not work with older versions )
-1. Clone the repository: `git clone https://github.com/ahmadelbd/Catto.git`
+1. Clone the repository: `git clone https://github.com/suffixing/Catto.git`
 2. Open the project in Android Studio.
 3. Build and run the app on your Android device or emulator. 
 
